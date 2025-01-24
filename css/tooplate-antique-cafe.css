@@ -49,7 +49,20 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-brown {
-    color: #544639;
+    color: #b76217;
+    /* color: #544639; */
+    /* color: rgba(0, 0, 0, 0.5); */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+
+}
+
+/* h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+.background-calendar {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .tm-text-green {
@@ -61,7 +74,9 @@ a.tm-bg-green:hover {
 }
 
 .tm-bg-brown {
-    background-color: #544639;
+    /* background-color: #544639; */
+    /* background-color: #d5c5b7; */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .tm-bg-green {
@@ -124,6 +139,11 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 .tm-text-2xl {
     font-size: 1.2rem;
     line-height: 2rem;
+}
+
+img {
+    width: 50%; 
+    height: auto; 
 }
 
 @media (min-width: 768px) {
