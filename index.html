@@ -161,15 +161,46 @@ https://www.tooplate.com/view/2126-antique-cafe
 
 
                 <!-- need to fix form, using formspree -->
-                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
-                    <form action="" method="POST" class="text-lg">
-                        <input type="text" name="name" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Name" required="" />
+                <!-- <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
+                    <form action="https://formspree.io/f/mrbebppy" method="POST" class="text-lg">
+                        <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
                         <input type="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required="" />
                         <textarea rows="6" name="message" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required=""></textarea>
                         <div class="text-right">
                             <button type="submit" class="text-white hover:text-yellow-500 transition">Send it</button>
                         </div>                        
-                      </form>
+                      </form> -->
+                    <!-- modify this form HTML and place wherever you want your form -->
+                    <!-- <form action="https://formspree.io/f/mrbebppy" method="POST">
+                        <label>Your email:
+                            <input type="email" name="email">
+                        </label>
+                        <label>Your message:<textarea name="message"></textarea>
+                        </label>
+                        
+                        <button type="submit">Send</button>
+                    </form> -->
+
+
+
+                    <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-50 tm-item-container">
+                        <form action="https://formspree.io/f/mrbebppy" method="POST" class="text-lg">
+                            <!-- Email Input Field -->
+                            <label for="email" class="block text-white mb-2"></label>
+                            <input type="email" id="email" name="email" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Email" required />
+                    
+                            <!-- Message Textarea Field -->
+                            <label for="message" class="block text-white mb-2"></label>
+                            <textarea id="message" name="message" rows="6" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Message..." required></textarea>
+                            <textarea id="message" name="message" rows="2" class="input w-full bg-black border-b bg-opacity-0 text-white px-0 py-4 mb-4 tm-border-gold" placeholder="Number of Guests" required></textarea>
+                    
+                            <!-- Submit Button -->
+                            <div class="text-right">
+                                <button type="submit" class="text-white hover:text-yellow-500 transition">Send it</button>
+                            </div>                        
+                        </form>
+                    </div>
+                    
                 </div>
             </div>
             <footer class="absolute bottom-0 left-0 w-full">
